@@ -42,13 +42,29 @@ All tests are kept in that file and should be maintained as updates are made to 
 
 - Casting Assistant
   - Can view actors and movies
+  - email: <casting_assistant@gmail.com>
+  - password: Testing_1234$
 - Casting Director
   - All permissions a Casting Assistant has and…
   - Add or delete an actor from the database
   - Modify actors or movies
+  - email: <casting_director@gmail.com>
+  - password: Testing_1234$
 - Executive Producer
   - All permissions a Casting Director has and…
   - Add or delete a movie from the database
+  - email: <executive_producer@gmail.com>
+  - password: Testing_1234$
+
+### Auth0 url to login with the pervious emails to generate the token for each role
+
+```bash
+https://dev-8npu8gdx5eo4rogq.us.auth0.com/authorize?
+  audience=agency&
+  response_type=token&
+  client_id=Fm6abzxDrnUfYvG61vdm0kWxcFlfbJ9P&
+  redirect_uri=https://127.0.0.1:8080/login-results
+```
 
 ## API Reference
 
