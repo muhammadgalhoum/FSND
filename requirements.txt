@@ -3,7 +3,7 @@ blinker==1.6.2
 click==8.1.7
 colorama==0.4.6
 ecdsa==0.18.0
-Flask==2.3.3
+Flask
 Flask-Cors==4.0.0
 Flask-Migrate==4.0.4
 Flask-Script==2.0.6
