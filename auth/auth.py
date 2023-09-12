@@ -5,9 +5,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN= os.environ.get("autho_domain")
+AUTH0_DOMAIN = 'dev-8npu8gdx5eo4rogq.us.auth0.com'
+API_AUDIENCE = 'agency'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = os.environ.get("api_audience")
 
 class AuthError(Exception):
     def __init__(self, error, status_code):
