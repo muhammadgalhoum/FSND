@@ -85,6 +85,12 @@ Errors are returned as JSON objects in the following format:
 }
 ```
 
+### Application URL
+
+```bash
+https://render-deployment-example-me02.onrender.com/
+```
+
 The API will return four error types when requests fail:
 
 - 400: Bad Request
