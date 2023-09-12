@@ -66,6 +66,12 @@ https://dev-8npu8gdx5eo4rogq.us.auth0.com/authorize?
   redirect_uri=https://127.0.0.1:8080/login-results
 ```
 
+### Application URL
+
+```bash
+https://render-deployment-example-me02.onrender.com/
+```
+
 ## API Reference
 
 ### Getting Started with API Documentation
@@ -83,12 +89,6 @@ Errors are returned as JSON objects in the following format:
   "error": 400,
   "message": "bad request"
 }
-```
-
-### Application URL
-
-```bash
-https://render-deployment-example-me02.onrender.com/
 ```
 
 The API will return four error types when requests fail:
