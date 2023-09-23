@@ -76,7 +76,7 @@ https://render-deployment-example-me02.onrender.com/
 
 ### Getting Started with API Documentation
 
-- Base URL: This app can only be run locally and globally. The backend app is hosted at the URL, `http://127.0.0.1:5000/`.
+- Base URL: This app can be run locally and globally. The backend app is hosted at the URL, `http://127.0.0.1:5000/`.
 - Authentication: This version of the application equires authentication.
 
 ### Error Handling
